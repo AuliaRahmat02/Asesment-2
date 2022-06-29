@@ -17,6 +17,6 @@
     <fragment
         android:id="@+id/addFragment"
         android:name="org.d3if2074.assessment.AddFragment"
-        android:label="Add Number"
-        android:layout="@layout/fragment_add"/>
+        android:label="fragment_add"
+        tools:layout="@layout/fragment_add" />
 </navigation>

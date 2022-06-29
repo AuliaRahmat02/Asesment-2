@@ -1,14 +1,11 @@
 package org.d3if2074.assessment
 
-import android.content.Intent
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
-import android.view.MenuItem
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ListView
-import androidx.appcompat.app.AppCompatActivity
+import androidx.fragment.app.Fragment
 import androidx.navigation.Navigation
 import com.google.firebase.database.*
 import org.d3if2074.assessment.databinding.FragmentHomeBinding
@@ -24,7 +21,7 @@ class HomeFragment : Fragment() {
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
+    ): View {
         binding = FragmentHomeBinding.inflate(layoutInflater, container, false)
         return binding.root
     }
